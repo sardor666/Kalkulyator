@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input class="oyna" readonly />
+        <div class="keys">
+            <button onclick="AddToInput('+')" class="operator">+</button>
+            <button onclick="AddToInput('7')">7</button>
+            <button onclick="AddToInput('8')">8</button>
+            <button onclick="AddToInput('9')">9</button>
+            <button onclick="AddToInput('-')" class="operator">-</button>
+            <button onclick="AddToInput('4')">4</button>
+            <button onclick="AddToInput('5')">5</button>
+            <button onclick="AddToInput('6')">6</button>
+            <button onclick="AddToInput('*')" class="operator">*</button>
+            <button onclick="AddToInput('1')">1</button>
+            <button onclick="AddToInput('2')">2</button>
+            <button onclick="AddToInput('3')">3</button>
+            <button onclick="AddToInput('/')" class="operator">/</button>
+            <button onclick="AddToInput('0')">0</button>
+            <button onclick="AddToInput('.')">.</button>
+            <button onclick="calculator('')">=</button>
+            <button onclick="clearAll()" class="operator">C</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
